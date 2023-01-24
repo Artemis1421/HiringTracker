@@ -1,0 +1,352 @@
+/* BACKGROUND COLORS */
+
+.bg-payreto-yellow {
+    background-color: #FEE6AA;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-payreto-pink {
+    background-color: #FFC7D2;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-payreto-lightblue {
+    background-color: #9CCBFD;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-payreto-peach {
+    background-color: #FFCAB8;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-payreto-green {
+    background-color: #59E1DA;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-payreto-gray {
+    background-color: #f7f3f4;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-payreto-darkblue-900 {
+    background-color: #010538;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-payreto-darkblue {
+    background-color: #031166;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-payreto-yellow {
+    background-color: #FEE6AA;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-payreto-payment {
+    background-color: #9ccbfd;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-payreto-onboarding {
+    background-color: #ffcab8;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-payreto-finance {
+    background-color: #ffc7d2;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-payreto-contact {
+    background-color: #59e1da;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.link-payreto-darkblue-900 {
+    color: red;
+}
+
+.link-payreto-darkblue-900:hover,
+.link-payreto-darkblue-900:focus {
+    color: red;
+}
+
+
+/* TABLE HEADING */
+
+.head-payreto-darkblue-900 {
+    background-color: #010538 !important;
+    color: #fff !important;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+}
+
+.border-payreto-gray {
+    border: solid 1px rgba(255, 255, 255, 0.5);
+}
+
+
+/* TEXT COLOR */
+
+.text-payreto-darkblue-900 {
+    color: #010538 !important;
+}
+
+.text-payreto-darkblue {
+    color: #031166 !important;
+}
+
+.text-payreto-payment {
+    color: #9ccbfd !important;
+}
+
+.text-payreto-onboarding {
+    color: #ffcab8 !important;
+}
+
+.text-payreto-finance {
+    color: #ffc7d2 !important;
+}
+
+.text-payreto-contact {
+    color: #59e1da !important;
+}
+
+
+/* Button */
+
+.btn-payreto-darkblue-900 {
+    color: #fff !important;
+    background-color: #010538 !important;
+    border-color: #010538 !important;
+}
+
+.btn-payreto-darkblue-900:hover {
+    color: #fff !important;
+    background-color: #031166 !important;
+    border-color: #031166 !important;
+}
+
+.btn-payreto-green-900 {
+    color: #000 !important;
+    background-color: #86FF92 !important;
+    border-color: #86FF92 !important;
+}
+
+.btn-payreto-green-900:hover {
+    color: #000 !important;
+    background-color: #a0fca9 !important;
+    border-color: #a0fca9 !important;
+}
+
+.btn-payreto-bluegreen-900 {
+    color: #000 !important;
+    background-color: #71D4FF !important;
+    border-color: #71D4FF !important;
+}
+
+.btn-payreto-bluegreen-900:hover {
+    color: #000 !important;
+    background-color: #84d9fd !important;
+    border-color: #84d9fd !important;
+}
+
+.btn-payreto-red-900 {
+    color: #000 !important;
+    background-color: #FF7171 !important;
+    border-color: #FF7171 !important;
+}
+
+.btn-payreto-red-900:hover {
+    color: #000 !important;
+    background-color: #fa7f7f !important;
+    border-color: #fa7f7f !important;
+}
+
+.btn-payreto-yellow-900 {
+    color: #000 !important;
+    background-color: #FFE871 !important;
+    border-color: #FFE871 !important;
+}
+
+.btn-payreto-yellow-900:hover {
+    color: #000 !important;
+    background-color: #fde985 !important;
+    border-color: #fde985 !important;
+}
+
+.btn-payreto-gray-900 {
+    color: #000 !important;
+    background-color: #C4C4C4 !important;
+    border-color: #C4C4C4 !important;
+}
+
+.btn-payreto-gray-900:hover {
+    color: #000 !important;
+    background-color: #dad8d8 !important;
+    border-color: #dad8d8 !important;
+}
+
+.btn-payreto-gray-900 {
+    color: #000 !important;
+    background-color: #C4C4C4 !important;
+    border-color: #C4C4C4 !important;
+}
+
+.btn-payreto-gray-900:hover {
+    color: #000 !important;
+    background-color: #dad8d8 !important;
+    border-color: #dad8d8 !important;
+}
+
+B871FF .btn-payreto-darkblue {
+    color: #031166 !important;
+}
+
+.btn-payreto-payment {
+    color: #fff !important;
+    background-color: #9ccbfd !important;
+    border-color: #9ccbfd !important;
+}
+
+.btn-payreto-payment:hover {
+    color: #fff !important;
+    background-color: red !important;
+    border-color: red !important;
+}
+
+.btn-payreto-onboarding {
+    color: #ffcab8 !important;
+}
+
+.btn-payreto-finance {
+    color: #ffc7d2 !important;
+}
+
+.btn-payreto-contact {
+    color: #59e1da !important;
+}
+
+.btn-payreto-format {
+    width: 8rem !important;
+}
+
+
+/* STATUS */
+
+.status-payreto-green {
+    color: #86FF92 !important;
+}
+
+.status-payreto-red {
+    color: #FF7171 !important;
+}
+
+.status-payreto-bluegreen {
+    color: #84d9fd !important;
+}
+
+.status-payreto-yellow {
+    color: #fde985 !important;
+}
+
+
+/* MARGINS */
+
+.me-6 {
+    margin-right: 8rem !important;
+}
+
+
+/* Borders */
+
+.border-payreto-darkblue-900 {
+    border-color: #010538 !important;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+td {
+    white-space: normal !important;
+}
+
+#particles-js {
+    height: 100vh;
+    width: 100;
+    background: #f000;
+}
+
+
+/* STATUS COLORS */
+
+.text-payreto-ongoing {
+    color: #B871FF;
+}
+
+.text-payreto-passed {
+    color: #86FF92;
+}
+
+.text-payreto-failed {
+    color: #FF7171;
+}
+
+.text-payreto-for-pooling {
+    color: #74D5FF;
+}
+
+.text-payreto-reprofiled {
+    color: #FFE871;
+}
+
+.text-payreto-withdrawn {
+    color: #afafaf;
+}
+
+.text-payreto-initial {
+    color: #B871FF;
+}
+
+
+
+/* ICON COLORS */
+
+.text-payreto-op-lead {
+    color: #FF7171;
+}
+
+.text-payreto-op-manager {
+    color: #FFAC71;
+}
+
+.text-payreto-dephead {
+    color: #FFE871;
+}
+
+.text-payreto-client {
+    color: #86FF92;
+}
+
+.text-payreto-management {
+    color: #74D5FF;
+}
+
+.label-medium{
+    font-size: 0.9rem;
+}

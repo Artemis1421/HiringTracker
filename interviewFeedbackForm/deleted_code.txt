@@ -1,0 +1,42 @@
+                            <table>
+                                <tr>
+                                <td>
+                                    <input type="hidden" value="<?php echo $id; ?>" name="id">
+                                </td>
+                                <td>
+                                    <input type="hidden" value="2" name="score_candidate">
+                                </td>
+                                <td>
+                                    <select class="form-select" name="phase" id="cand_phase">
+                                    <option value="<?php echo $_GET['phase']; ?>" selected> <?php echo phase_name($_GET['phase']); ?></option>
+                                    <?php  
+                                    $find_iff_phase = find_iff_phase($id);
+                                    foreach($find_iff_phase as $keyss): ?>
+                                        <?php if($keyss['phase'] != $_GET['phase']): ?>
+                                        <option value="<?php echo $keyss['phase']; ?>"><?php echo phase_name($keyss['phase']); ?></option>
+                                    
+                                    <?php endif; endforeach; ?>
+                                    </select>
+                            </td>
+                                
+                    <?php endif;?>
+                </div>
+                <!-- Add condition if view is for admin or interviewer // 11/28/2022 -->
+                            <td>
+                                <?php 
+                                $old_interviewer = find_old_interviewer($interview_phase, $id); ?>
+                                <div class="d-flex">
+                                    <?php if($getid == 1):?>
+                                <label class="col-form-label text-payreto-darkblue-900 fw-bold mx-2">Interviewer:</label>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <select class="form-select" aria-label="Default select example" id="cand_list_int" name="interviewer_id">
+                                            <?php
+                                            foreach($old_interviewer as $get_old_interviewer): 
+                                            ?>
+                                                <option data-parent="<?php echo $get_old_interviewer['phase']; ?>" value="<?php echo $get_old_interviewer['i_id']; ?>"><?php echo $get_old_interviewer['i_name']; ?></option>
+                                            <?php  endforeach;?>
+                                    </select>
+                            </td>
+                            </tr>
+                                              
+                        </table>

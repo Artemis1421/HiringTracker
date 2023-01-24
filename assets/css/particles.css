@@ -1,0 +1,9 @@
+#particles-js {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/HiringTracker/assets/images/hiringtracker.png");
+    /* linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    object-fit: fill;     
+}
